@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    background-color: #0e1122;
+    color: #474747;
+}
+
+.hover-effect {
+    transition: all 0.3s;
+}
+
+.hover-effect:hover {
+    scale: 1.01;
+    box-shadow: 0 8px 12px rgba(79, 79, 79, 0.533);
+}
+
+.card {
+    background-color: rgb(16, 20, 37);
+    border: #474747 solid 1px;
+    color: white;
+
+    box-shadow: 0 2px 4px rgba(79, 79, 79, 0.533);
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-container {
+    background-color: #39118f;
+    border-bottom: #39118f solid 1px;
+}
+
+.nav-link {
+    color: white;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    color: #ffffff;
+    opacity: 100%;
+}
+
+#hero {
+    background-image: url('./assets/image/hero_section_image_o20.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (min-width : 768px) {
+    #hero {
+        background-image: none;
+    }
+}
